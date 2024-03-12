@@ -1,0 +1,102 @@
+<!-- Este é um comentário em HTML. -->
+<!DOCTYPE html>
+<!-- Este é o DTD do HTML5. -->
+<!-- Document Type Definition é a instrução que vai orientar o browser a carregar o conjunto correto de bibliotecas da versão do HTML em questão. -->
+
+<html lang="pt-br">
+  <!-- primeiro filho do html = head. -->
+  <head>
+    <!-- Os filhos do head são em sua maioria tags de metadados. Ex: meta. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width:device-width,initial-scale=1.0" />
+    <title>Página Básica</title>
+  </head>
+  <!-- segundo filho do html = body -->
+  <body>
+    <div class="container">
+      <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
+      <header class="cabecalho">
+        <h1 style="text-align: center">Minha Página</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="conteudo-principal">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            ipsam vero animi corporis modi quos, provident alias. Dicta ea
+            laudantium quaerat vitae reiciendis iusto ipsam alias dolores dolor
+            quis sint officia praesentium quos accusantium nisi, ipsum ipsa est
+            a voluptatibus aspernatur! Nihil consequatur vitae ullam eius modi,
+            ipsa repellendus veniam, quaerat unde quisquam, nostrum libero dicta
+            voluptatem temporibus. Nihil, hic! Esse laborum, obcaecati aut
+            corrupti maxime ullam saepe? Dolor minima tempore ipsam ducimus enim
+            odio quas? Nesciunt, aperiam. Voluptas autem recusandae at est
+            facilis nisi ducimus tempore eum odio maxime. Doloremque
+            necessitatibus voluptate, amet laborum laudantium ex expedita ad
+            dolorem?
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            maxime repellat animi iste aliquid! Magni quibusdam quae sequi
+            accusantium unde quis, sunt enim illo quia inventore error voluptas
+            aspernatur hic tenetur ex provident culpa tempore vitae in?
+            Molestiae unde minima harum obcaecati? Cumque architecto velit
+            debitis officiis. Alias, repellendus est.
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+        <div> id="contact"
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Contact</legend>
+              <div>
+                <label for="idNm">Name</label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Type your name..."
+                />
+              </div>
+              <div>
+                <label for="idEmail">Email</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Type your email..."
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <nav>
+          <ul>
+            <li><a href="https://www.fiap.com.br" target="_blank"> FIAP</a></li>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
