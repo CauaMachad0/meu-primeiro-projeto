@@ -50,14 +50,12 @@ a{
     color: red;
 
     /*Nesting elementos*/
-    img{
-        display: inline-block
-        
+    img {
+        display: inline-block;
+        width: 50%;
+
     };
-
 }
-
-
 }
 
 /*Seletores de ID*/
