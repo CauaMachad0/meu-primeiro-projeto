@@ -4,3 +4,9 @@
 #cabecalho {
   background-color: blue;
 }
+
+/*Estilizando os títulos*/
+h1,
+h2 {
+  font-family: serif;
+}
