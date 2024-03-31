@@ -20,7 +20,7 @@ html {
 /*Exemplo de seletores*/
 /*Seletores de tipos*/
 h1 {
-  color: #f01;
+  color: red;
   font-size: 5em;
   text-align: center;
 }
