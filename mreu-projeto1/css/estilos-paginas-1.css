@@ -25,3 +25,9 @@ nav a {
 #conteudo {
   line-height: 1.5;
 }
+
+/*Estilizando o formulário para contato form*/
+form {
+  border: 1px solid gray;
+  padding: 10px;
+}
