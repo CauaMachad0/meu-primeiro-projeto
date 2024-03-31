@@ -42,3 +42,8 @@ form button {
   background-color: blue;
   color: white;
 }
+
+/*Estilizando bordas e rodapé*/
+footer {
+  border-top: 2px solid red;
+}
