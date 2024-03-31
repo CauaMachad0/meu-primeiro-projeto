@@ -36,3 +36,9 @@ form {
 p {
   color: green;
 }
+
+/*Estilizando os botões da página*/
+form button {
+  background-color: blue;
+  color: white;
+}
