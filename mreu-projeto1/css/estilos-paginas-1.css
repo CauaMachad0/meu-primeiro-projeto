@@ -10,3 +10,8 @@ h1,
 h2 {
   font-family: serif;
 }
+
+/*Editando os links da barra de navegação*/
+nav a {
+  font-weight: bold;
+}
