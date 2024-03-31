@@ -2,62 +2,57 @@
 
 /*Exemplo de regra CSS*/
 
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 
-header{
-    font-size: 62.5%;
+#cabecalho {
+  font-size: 62.5%;
 
-    /*Exemplo de background*/
-    background-image: url(../img/img-01-banner-1280×640.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-h1 {
-    color: #f01;
-    font-size: 2.5em;
-    text-align: center;
+  /*Exemplo de background*/
+  background-image: url(../img/img-01-banner-1280×640.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*Exemplo de seletores*/
 /*Seletores de tipos*/
 h1 {
-    color: #f01;
-    font-size: 2.5em;
-    text-align: center;
+  color: #f01;
+  font-size: 5em;
+  text-align: center;
 }
+
 /*Seletores de classe*/
-.link{
-    display: inline-block;
-    margin: 0 5% 1% 5%;
-    border: solid 2px red;
-    background-color: rgb(255, 0, 0, 0.2);
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in;
+.link {
+  display: inline-block;
+  margin: 0 5% 1% 5%;
+  border: solid 2px red;
+  background-color: rgb(255, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in;
 
-/*Nesting elementos*/
-    /*Nesting pseudo-elementos*/
-    &:hover{
-        background-color: red;
-    }
+  /*Nesting elementos*/
+  /*Nesting pseudo-elementos*/
+  &:hover {
+    background-color: red;
+  }
 
-a{
+  a {
     text-decoration: none;
     color: red;
 
     /*Nesting elementos*/
     img {
-        display: inline-block;
-        width: 50%;
-        }
+      display: inline-block;
+      width: 50%;
     }
+  }
 }
 
 /*Seletores de ID*/
 #menu ul {
-    text-align: center;
+  text-align: center;
 }
