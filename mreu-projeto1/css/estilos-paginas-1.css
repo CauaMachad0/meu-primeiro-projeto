@@ -31,3 +31,8 @@ form {
   border: 1px solid gray;
   padding: 10px;
 }
+
+/*Aplicando cor verde para os parágrafos*/
+p {
+  color: green;
+}
